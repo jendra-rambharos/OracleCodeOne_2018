@@ -25,12 +25,34 @@ Continuous Delivery with Containers
         - a few lines of maven or gradle config
 
 
-    Getting Started with Kafka
-        - Kafka is a transaction log
-        - 3 guarantees, 
-            - producer and consumer are separated
-            - as long as there are n-1 replicas available, kafka will receive and push the message
-        - zookeeper resoinsibilities
-            - elect a cluster leader
-            -  
+Getting Started with Kafka
+    - Kafka is a transaction log
+    - 3 guarantees, 
+        - producer and consumer are separated
+        - as long as there are n-1 replicas available, kafka will receive and push the message
+    - zookeeper resoinsibilities
+        - elect a cluster leader
+        -  keeps an inventory of all the available brokers
+        - maintains the list of all topic configurations
+    - broker (kafka server)
+        - this is where the topics reside
+        - topics are kept on a broker
+    - topics    
+        - logical classification of messages
+        - logical separation of messages
+    - producer  
+        - creates the message
+    - consumer 
+        - consumes the message
+    - resiliency
+
+    - demo of resiliency
+
+    - Partitions
+        - 
+
+    
+    Machine Learning for Software Developers
+        - 
+
         
