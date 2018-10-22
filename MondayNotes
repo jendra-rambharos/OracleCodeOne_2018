@@ -2,4 +2,32 @@ Graph Query Language
     - Dud Session
 
 Graph Meet ML
-    - 
+    - A lot of technical detail
+
+Continuous Delivery with Containers
+    - Continuous delivery can help with container fires (bad code into containers)
+    - Books: new book: Continuous delivery in java, old book: containerizing contunouos delivery in java
+    - java container scope: container image becomes the build pipeline "single binary"
+    - adding metadada to containers images is vital
+    - must validate container constraints on system quality attributes
+    - danielbryantuk
+    - make dev environment like dev
+        - build and test containers locally
+    - use identical base images (os and such)
+    - opencredo
+    - make os as thin as possible
+    - slideshare account?
+    - books: Threat Modeling desighing for security, just enough software archiutecture, bdd in action, scalability rules, the art of scalabiulity
+    - security testing, findsecbugs, bdd security, gauntlt, docker bench for security
+    - performance and load testing, gatling, flood.io, jmeter
+    - dependency scanning. owasp dependency check
+        - zap
+        - a few lines of maven or gradle config
+
+
+    Getting Started with Kafka
+        - Kafka is a transaction log
+        - 3 guarantees, 
+            - producer and consumer are separated
+            - as long as there are n-1 replicas available, kafka will receive and push the message
+            - 
