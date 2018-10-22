@@ -30,4 +30,7 @@ Continuous Delivery with Containers
         - 3 guarantees, 
             - producer and consumer are separated
             - as long as there are n-1 replicas available, kafka will receive and push the message
-            - 
+        - zookeeper resoinsibilities
+            - elect a cluster leader
+            -  
+        
