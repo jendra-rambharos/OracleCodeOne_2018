@@ -1,2 +1,10 @@
 Kubernetes for Java Developers
     - 
+
+Effective Unit Testing
+    - Definition of test: Verify that a known fixed input, generates a known fixed output
+    - Test the middle of the road case, before the edge cases
+    - for fuzzy input, fake it output
+    - Don't test with random data, use clear fixed data
+    - try to not access the network and preferably not the file system
+    - 
