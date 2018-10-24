@@ -7,4 +7,14 @@ Effective Unit Testing
     - for fuzzy input, fake it output
     - Don't test with random data, use clear fixed data
     - try to not access the network and preferably not the file system
-    - 
+    - unit test tests one and only one thing
+    - tests should be independent, they should be able to run in any order, in parallel, and should not interefere
+    - make sure tests don't share data or state. 
+    - java truth library helps with testing collections
+    - flakiness can be caused by threads
+        - be wary of system skew
+        - be wary of floating point or rounding errors
+        - integer width
+        - default character state
+    - as soon as you find a bug, write a failing test for it
+    - break code deliberately before refactoring it
