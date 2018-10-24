@@ -1,3 +1,14 @@
 Ten Steps to build, manage, and monitor your Microservices
     - "Shift Left" operations
-    - 
+    - Steps:
+        - Define and document sli and slo rewuirements at the service level
+        - Define and document sli and slo requirements at the microservice elvel in relation to service level slo and sli
+        - Develop sli monitoring and diagnostic telemetry instrumentation during feature code development
+        - Test sli monitoring and diagnostic telemetry instrumentation duriing feature code testing
+        - use the same sli monitoring and diagnostic data, tools, and practices throughout the devops cycle
+        - create and use feedback looks on sli monitoring and diagnostic data, tools, and practices to refine and improve devops capabilities
+
+
+Angular for java
+    - github.com/bertjan/a4jd
+    
