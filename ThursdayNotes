@@ -15,9 +15,10 @@ Kubernetes
         - security
             - admission controllers
             - pod security policies
-            - rbacsecrets, certs
+            - rbac
+            - secrets, certs
         - HA and DR
-            - control plane, data plance
+            - control plane, data plane
             - multi-region
         - Observability
             - monitoring, logging
