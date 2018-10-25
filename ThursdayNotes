@@ -1,0 +1,27 @@
+Kubernetes 
+    - Journey to production
+        - Cluster layout
+            - multiple clusters bs namesoaces, tenancy/compartment, limits
+            - cluster lifecycle
+        - Networking
+            - network policy
+            - ingress controller
+            - on prem connectivity
+        - Storage
+            - provider/block integration
+            - multiread write / nfs
+        - users and teams
+            - iam integration, rbac
+        - security
+            - admission controllers
+            - pod security policies
+            - rbacsecrets, certs
+        - HA and DR
+            - control plane, data plance
+            - multi-region
+        - Observability
+            - monitoring, logging
+        - CI/CD
+            - piupelines
+            - registry integration
+    
